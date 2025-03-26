@@ -1,0 +1,102 @@
+body,
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/leaves.jpg");
+    margin: 0;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    height: 100vh;
+}
+
+header {
+    backdrop-filter: blur(40px);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36pt;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.headerText {
+    z-index: 1;
+}
+
+.aboutText {
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.wholeScreen {
+    width: 100%;
+    height: calc(100% - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainPart {
+    text-align: center;
+    backdrop-filter: blur(40px);
+    height: 90%;
+    width: 60%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.text {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 0;
+    padding: 30px;
+    font-size: 50pt;
+}
+
+.text p {
+    margin: 0;
+    padding: 0;
+    font-size: 26pt;
+    font-weight: 500;
+}
+
+.aboutTextBox {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contact {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    gap: 20%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.svg {
+    height: 30pt;
+    filter: invert(1);
+}

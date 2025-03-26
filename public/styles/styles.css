@@ -1,0 +1,91 @@
+body,
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/leaves.jpg");
+    margin: 0;
+    color: white;
+    font-family: Open Sans, sans-serif;
+    height: 100vh;
+}
+
+header {
+    backdrop-filter: blur(40px);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 36pt;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.headerText {
+    z-index: 1;
+}
+
+.aboutText {
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.mainPart {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 150px);
+    justify-content: center;
+    align-items: center;
+}
+
+.createBox {
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(40px);
+    text-align: center;
+    width: 95%;
+    height: 90%;
+    border-radius: 50px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.createBoxTitle {
+    font-size: 56pt;
+    font-weight: bold;
+    margin: 0;
+    padding: 30px;
+}
+
+.innerCreateBox {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.createButton {
+    display: flex;
+    background-color: #3e6245;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 130pt;
+    cursor: pointer;
+}
+
+.createButton:hover {
+    filter: brightness(130%);
+    transition: 0.2s ease-in-out;
+}
